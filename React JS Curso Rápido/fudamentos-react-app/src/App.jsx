@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import './App.css'
 import React from 'react'
 
@@ -7,7 +8,7 @@ import ComParametro from './components/ComParametro'
 import ComFilhos from './components/ComFilhos'
 import Repeticao from './components/Repeticao'
 
-export default (props) => (
+export default () => (
     <div className="App">
         <Card titulo="#04 - Componente de repeticao">
             <Repeticao></Repeticao>
