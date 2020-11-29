@@ -2,9 +2,9 @@ import './index.css'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import Primeiro from './components/primeiro'
+import App from './App'
 
 ReactDOM.render(
-    <Primeiro />,
+    <App />,
     document.getElementById("root")
 )
